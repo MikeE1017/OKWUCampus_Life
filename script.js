@@ -1,6 +1,1 @@
-Home
- ├── Campus Map
- ├── Dining Info
- ├── Events Calendar
- ├── Community & Devotions
-
+Home | Map | Dining | Events | Community | Devotions | Schedule
