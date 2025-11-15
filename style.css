@@ -1,1 +1,130 @@
+/* ===== Global Styles ===== */
+:root {
+  --primary-color: #0d6efd;        /* Bootstrap primary blue */
+  --primary-dark: #0a58ca;
+  --secondary-color: #198754;      /* Bootstrap success green */
+  --background-color: #f4f6f9;
+  --text-color: #212529;
+  --card-bg: #ffffff;
+  --border-radius-lg: 1rem;
+  --shadow-soft: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+}
+
+/* Ensure content is not hidden behind fixed navbar */
+main {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+/* Highlight current page link a bit more */
+.nav-link.active {
+  font-weight: 600;
+  border-bottom: 2px solid #ffffff;
+}
+
+/* ===== Hero Sections ===== */
+.hero-section {
+  padding: 3rem 1rem;
+  border-radius: var(--border-radius-lg);
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: #ffffff;
+  box-shadow: var(--shadow-soft);
+  margin-bottom: 2rem;
+}
+
+.hero-section h1,
+.hero-section h2 {
+  font-weight: 700;
+}
+
+.hero-section p {
+  font-size: 1.05rem;
+  max-width: 650px;
+}
+
+/* ===== Page Headings ===== */
+.page-header {
+  margin-bottom: 1.5rem;
+}
+
+.page-header h2 {
+  font-weight: 700;
+}
+
+.page-header p {
+  margin: 0;
+  color: #6c757d;
+}
+
+/* ===== Cards & Content Layout ===== */
+.content-card {
+  background-color: var(--card-bg);
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-soft);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.content-card h3 {
+  margin-bottom: 0.75rem;
+}
+
+.placeholder-box {
+  border: 2px dashed #ced4da;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  text-align: center;
+  color: #6c757d;
+  font-size: 0.95rem;
+}
+
+/* ===== Tables (Schedule Page) ===== */
+.table-schedule {
+  background-color: #ffffff;
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+}
+
+/* ===== Footer ===== */
+footer {
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+/* ===== Utility ===== */
+.section-spacing {
+  margin-top: 2rem;
+}
+
+.badge-label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
 

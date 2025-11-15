@@ -1,46 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Campus Events</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OKWU Campus Life | Events</title>
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
+  <!-- Header & Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">OKWU Campus Life</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#mainNavbar"
+        aria-controls="mainNavbar"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-  <!-- ================ HEADER ================= -->
-  <header>
-    <h1>Events Calendar</h1>
-    <nav>
-      <a href="index.html">Home</a> |
-      <a href="map.html">Map</a> |
-      <a href="dining.html">Dining</a> |
-      <a href="community.html">Community</a> |
-      <a href="schedule.html">Schedule</a>
-    </nav>
-  </header>
-
-  <!-- ================ EVENT FEED ================= -->
-  <section>
-    <div style="height:350px; border:1px solid black;">
-      [Events API Placeholder - Calendar / List View]
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="map.html">Map</a></li>
+          <li class="nav-item"><a class="nav-link" href="dining.html">Dining</a></li>
+          <li class="nav-item"><a class="nav-link" href="schedule.html">Schedule</a></li>
+          <li class="nav-item"><a class="nav-link active" href="events.html">Events</a></li>
+          <li class="nav-item"><a class="nav-link" href="community.html">Community & Devotions</a></li>
+        </ul>
+      </div>
     </div>
-  </section>
+  </nav>
 
-  <!-- ================ FILTERS ================= -->
-  <section>
-    <select>
-      <option>All Events</option>
-      <option>Sports</option>
-      <option>Clubs</option>
-      <option>Academics</option>
-    </select>
-    <button>[Add to Calendar]</button>
-    <button>[Submit Event]</button>
-  </section>
+  <main>
+    <section class="container">
+      <div class="page-header">
+        <h2>Campus Events</h2>
+        <p>Keep up with what's happening on campus this week.</p>
+      </div>
 
-  <!-- ================ FOOTER ================= -->
-  <footer>
-    © 2025 OKWU Campus Life | Student Affairs
+      <div class="content-card mb-4">
+        <h3>Upcoming Events (Static Placeholder)</h3>
+        <p>
+          In the final version, this section could pull events from a campus
+          events API or Google Calendar feed.
+        </p>
+        <div class="placeholder-box">
+          API integration for events will appear here in the final project.
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="content-card h-100">
+            <span class="badge bg-primary badge-label">Today</span>
+            <h3 class="mt-2">Chapel Service</h3>
+            <p><strong>Time:</strong> 10:00 AM - 11:00 AM</p>
+            <p><strong>Location:</strong> Main Chapel</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="content-card h-100">
+            <span class="badge bg-success badge-label">Tomorrow</span>
+            <h3 class="mt-2">Game Night</h3>
+            <p><strong>Time:</strong> 7:00 PM - 9:00 PM</p>
+            <p><strong>Location:</strong> Student Center</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="content-card h-100">
+            <span class="badge bg-warning text-dark badge-label">This Week</span>
+            <h3 class="mt-2">Career Workshop</h3>
+            <p><strong>Time:</strong> Thursday, 3:00 PM</p>
+            <p><strong>Location:</strong> Room 204</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-white mt-4">
+    <div class="container">
+      <p class="mb-0">&copy; 2025 OKWU Campus Life (MVP)</p>
+    </div>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js" defer></script>
 </body>
 </html>
