@@ -113,7 +113,7 @@ if (loadOkwuEventsBtn && okwuEventsList) {
         "<li class='list-group-item'>Loading OKWU events...</li>";
 
       // Fetch events JSON file
-      const response = await fetch("/js/okwu-events.json");
+      const response = await fetch("js/okwu-events.json");
       const eventGroups = await response.json();
 
       // Clear loading state
