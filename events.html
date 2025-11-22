@@ -41,32 +41,54 @@
     </div>
   </nav>
 
-  <main>
-    <section class="container">
-      <div class="page-header">
-        <h2>Campus Events</h2>
-        <p>Stay updated on chapel services and upcoming spiritual life events.</p>
-      </div>
+<main>
+  <section class="container">
 
-      <!-- Chapel Events API Section -->
-      <div class="content-card mb-4">
-        <h3>Chapel Events (Dynamic API)</h3>
-        <p>Click below to load upcoming chapel services and speakers.</p>
+    <!-- Page Header -->
+    <div class="page-header mt-4">
+      <h2>Campus Events</h2>
+      <p>Stay updated on OKWU campus events and chapel services.</p>
+    </div>
 
-        <button id="loadChapelBtn" class="btn btn-secondary mb-3">
-          Load Chapel Events
-        </button>
+    <!-- OKWU Events API Section -->
+    <div class="content-card mb-4">
+      <h3>OKWU Campus Events (Dynamic API)</h3>
+      <p>Click below to load upcoming OKWU events from November-December.</p>
 
-        <ul id="chapelEventsList" class="list-group">
-          <!-- Chapel events load here -->
-        </ul>
+      <button id="loadOkwuEventsBtn" class="btn btn-secondary mb-3">
+        Load OKWU Events
+      </button>
 
-        <p class="text-muted mt-2">
-          This data is loaded from a custom API file (chapel-events.json).
-        </p>
-      </div>
-    </section>
-  </main>
+      <ul id="okwuEventsList" class="list-group">
+        <!-- Events will load here from the JSON API -->
+      </ul>
+
+      <p class="text-muted mt-2">
+        This data is loaded from a custom JSON API file (okwu-events.json).
+      </p>
+    </div>
+
+    <!-- Chapel Events API Section -->
+    <div class="content-card mb-4">
+      <h3>Chapel Events (Dynamic API)</h3>
+      <p>Click below to load upcoming chapel services and speakers.</p>
+
+      <button id="loadChapelBtn" class="btn btn-secondary mb-3">
+        Load Chapel Events
+      </button>
+
+      <ul id="chapelEventsList" class="list-group">
+        <!-- Chapel events load here -->
+      </ul>
+
+      <p class="text-muted mt-2">
+        This data is loaded from a custom JSON API file (chapel-events.json).
+      </p>
+    </div>
+
+  </section>
+</main>
+
 
   <footer class="bg-white mt-4">
     <div class="container">
