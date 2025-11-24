@@ -1,1 +1,221 @@
-
+[
+  {
+    "date": "Thursday, November 20, 2025",
+    "events": [
+      {
+        "time": "1:30 PM",
+        "title": "Women's Varsity Reserved Basketball vs. Eastern Oklahoma",
+        "location": "MSC"
+      },
+      {
+        "time": "7:00 PM",
+        "title": "Fall Play: Agatha Christie's The Mousetrap",
+        "location": "Lyon Hall",
+        "link": "https://www.onthestage.tickets/show/oklahoma-wesleyan-university/68f00af4d511850ff248ab7a/tickets#/productions-view"
+      }
+    ]
+  },
+  {
+    "date": "Friday, November 21, 2025",
+    "events": [
+      {
+        "time": "7:00 PM",
+        "title": "Fall Play: Agatha Christie's The Mousetrap",
+        "location": "Lyon Hall",
+        "link": "https://www.onthestage.tickets/show/oklahoma-wesleyan-university/68f00af4d511850ff248ab7a/tickets#/productions-view"
+      }
+    ]
+  },
+  {
+    "date": "Saturday, November 22, 2025",
+    "events": [
+      {
+        "time": "12:00 PM",
+        "title": "Men's Soccer - 1st Round of Nationals",
+        "location": "Home"
+      },
+      {
+        "time": "1:00 PM",
+        "title": "Women's Volleyball vs. Nelson University - 1st Round of Nationals",
+        "location": "Home"
+      },
+      {
+        "time": "3:00 PM",
+        "title": "Women's Varsity Basketball vs. Kansas Wesleyan University",
+        "location": "MSC"
+      },
+      {
+        "time": "4:00 PM",
+        "title": "Women's Soccer - 1st Round of Nationals",
+        "location": "Home"
+      },
+      {
+        "time": "5:00 PM",
+        "title": "Men's Basketball vs. Kansas Wesleyan University",
+        "location": "MSC"
+      },
+      {
+        "time": "7:00 PM",
+        "title": "Fall Play: Agatha Christie's The Mousetrap",
+        "location": "Lyon Hall",
+        "link": "https://www.onthestage.tickets/show/oklahoma-wesleyan-university/68f00af4d511850ff248ab7a/tickets#/productions-view"
+      }
+    ]
+  },
+  {
+    "date": "Tuesday, November 25, 2025",
+    "events": [
+      {
+        "time": "5:00 PM",
+        "title": "Women's Varsity Basketball vs. Haskell",
+        "location": "MSC"
+      }
+    ]
+  },
+  {
+    "date": "Wednesday-Sunday, November 26-30, 2025",
+    "events": [
+      {
+        "time": "All Day",
+        "title": "Thanksgiving Break",
+        "location": "Campus Closed (Varies)"
+      },
+      {
+        "time": "TBA",
+        "title": "Men's Varsity Basketball vs. University of Science and Arts",
+        "location": "Paycom Center, Oklahoma City"
+      }
+    ]
+  },
+  {
+    "date": "Monday, December 1, 2025",
+    "events": [
+      {
+        "time": "All Day",
+        "title": "Classes Resume (Traditional 16-Week Courses)",
+        "location": "Campus-wide"
+      }
+    ]
+  },
+  {
+    "date": "Thursday, December 4, 2025",
+    "events": [
+      {
+        "time": "1:30 PM",
+        "title": "Women's Varsity Reserved Basketball vs. Seminole",
+        "location": "MSC"
+      }
+    ]
+  },
+  {
+    "date": "Friday, December 5, 2025",
+    "events": [
+      {
+        "time": "7:00 PM",
+        "title": "OKWU Christmas Concert (OKWU Chorale)",
+        "location": "Lyon Hall"
+      },
+      {
+        "time": "8:00 PM",
+        "title": "Karaoke Night",
+        "location": "Campus"
+      }
+    ]
+  },
+  {
+    "date": "Saturday, December 6, 2025",
+    "events": [
+      {
+        "time": "9:00 AM - 10:00 PM",
+        "title": "Private Event",
+        "location": "Mansion"
+      },
+      {
+        "time": "1:00 PM",
+        "title": "Women's Varsity Basketball vs. Sterling",
+        "location": "MSC"
+      },
+      {
+        "time": "5:30 PM",
+        "title": "Bartlesville Christmas Parade (Sign-Up Event)",
+        "location": "Bartlesville",
+        "link": "https://www.signupgenius.com/go/10C0D4AA9A722ABFEC43-60664108-12625"
+      },
+      {
+        "time": "TBA",
+        "title": "Club Volleyball Tournament",
+        "location": "Sand Volleyball Court"
+      }
+    ]
+  },
+  {
+    "date": "Sunday, December 7, 2025",
+    "events": [
+      {
+        "time": "8:00 PM",
+        "title": "Late Night Breakfast",
+        "location": "MSC"
+      }
+    ]
+  },
+  {
+    "date": "Monday-Wednesday, December 8-10, 2025",
+    "events": [
+      {
+        "time": "All Day",
+        "title": "Finals Week",
+        "location": "Campus-wide"
+      },
+      {
+        "time": "5:00 PM",
+        "title": "Women's Varsity Basketball vs. Southwestern",
+        "location": "MSC"
+      }
+    ]
+  },
+  {
+    "date": "Friday, December 12, 2025",
+    "events": [
+      {
+        "time": "All Day",
+        "title": "Graduation Information Available",
+        "location": "Online"
+      }
+    ]
+  },
+  {
+    "date": "Saturday, December 13, 2025",
+    "events": [
+      {
+        "time": "1:00 PM",
+        "title": "Women's Varsity Basketball vs. Bethel",
+        "location": "MSC"
+      }
+    ]
+  },
+  {
+    "date": "Sunday, December 14, 2025",
+    "events": [
+      {
+        "time": "All Day",
+        "title": "Subterm B Ends (Graduate 8-Week)",
+        "location": "Campus-wide"
+      },
+      {
+        "time": "All Day",
+        "title": "Subterm C Ends (Non-Traditional 5-Week)",
+        "location": "Campus-wide"
+      }
+    ]
+  },
+  {
+    "date": "Monday, December 15, 2025",
+    "events": [
+      {
+        "time": "All Day",
+        "title": "Classes Begin (4-Week Winter Term)",
+        "location": "Campus-wide"
+      }
+    ]
+  }
+]
