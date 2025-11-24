@@ -158,3 +158,51 @@ if (loadOkwuEventsBtn && okwuEventsList) {
   });
 }
 
+// ======================================
+// Load Today's Event for Home Page
+// ======================================
+async function loadTodaysEvent() {
+  const eventTarget = document.getElementById("todaysEvent");
+  if (!eventTarget) return; // Prevent running on non-home pages
+
+  try {
+    const response = await fetch("js/okwu-events.json");
+    const eventsData = await response.json();
+
+    // Get today's date in the same format as JSON
+    const today = new Date();
+    const formattedToday = today.toLocaleDateString("en-US", {
+      weekday: "long",
+      month: "long",
+      day: "numeric",
+      year: "numeric"
+    });
+
+    // Try to find a matching date in your JSON
+    const todayEvents = eventsData.find(item => item.date === formattedToday);
+
+    if (!todayEvents) {
+      eventTarget.textContent = "No scheduled events today.";
+      return;
+    }
+
+    // Build a simple display
+    let html = `<strong>${todayEvents.date}</strong><br><br>`;
+    todayEvents.events.forEach(evt => {
+      html += `
+        <strong>${evt.time}</strong> — ${evt.title}<br>
+        Location: ${evt.location}<br><br>
+      `;
+    });
+
+    eventTarget.innerHTML = html;
+
+  } catch (error) {
+    console.error("Error loading today's event:", error);
+    eventTarget.textContent = "Unable to load today’s event.";
+  }
+}
+
+// Run the function
+loadTodaysEvent();
+
