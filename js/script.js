@@ -206,3 +206,38 @@ async function loadTodaysEvent() {
 // Run the function
 loadTodaysEvent();
 
+// ======================================
+// Dining Menu API (menu.json)
+// Loads weekly dining menu dynamically
+// ======================================
+const loadMenuBtn = document.getElementById("loadMenuBtn");
+const diningMenuList = document.getElementById("diningMenuList");
+
+if (loadMenuBtn && diningMenuList) {
+  loadMenuBtn.addEventListener("click", async () => {
+    try {
+      const response = await fetch("js/menu.json");
+      const data = await response.json();
+
+      diningMenuList.innerHTML = "";
+
+      data.days.forEach(day => {
+        const li = document.createElement("li");
+        li.className = "list-group-item";
+
+        li.innerHTML = `
+          <strong>${day.day}</strong><br>
+          <em>Lunch:</em> ${day.meals.lunch.join(", ")}<br>
+          <em>Dinner:</em> ${day.meals.dinner.join(", ")}
+        `;
+
+        diningMenuList.appendChild(li);
+      });
+
+    } catch (error) {
+      diningMenuList.innerHTML =
+        "<li class='list-group-item'>Unable to load dining menu.</li>";
+      console.error("Dining menu error:", error);
+    }
+  });
+}

@@ -57,9 +57,35 @@
               <li><strong>Weekdays:</strong> 7:00 AM - 7:00 PM</li>
               <li><strong>Weekends: Brunch</strong> 11:00 AM - 1:30 PM<strong> Dinner</strong> 5:00 PM - 7:30 PM</li>
             </ul>
-            <div class="placeholder-box">
-              Future API: Daily menu pulled from a dining API.
+            <div class="content-card mb-4">
+              <h3>Weekly Dining Menu (Dynamic API)</h3>
+              <p>Click below to load this week's dining hall menu.</p>
+
+              <button id="loadMenuBtn" class="btn btn-secondary mb-2">
+                Load Dining Menu
+              </button>
+
+              <ul id="diningMenuList" class="list-group">
+                <!-- Menu loads here -->
+              </ul>
+
+              <p class="text-muted mt-2">
+                Menu provided by a custom JSON file (menu.json).
+              </p>
             </div>
+             <div class="content-card section-spacing">
+              <h3>Dietary Preferences</h3>
+              <p>
+                In the final version, users could filter options by dietary needs
+                (vegetarian, dairy-free, gluten-free, etc.).
+              </p>
+              <div class="placeholder-box">
+                Filter buttons and menu results will appear here (JS + API in final app).
+              </div>
+            </div>
+          </section>
+        </main>
+
           </div>
         </div>
 
@@ -74,25 +100,9 @@
               <li><strong>Sunday Closed</strong></li>
               <li><strong>Location:</strong> Haltom Campus Center, downstairs</li>
             </ul>
-            <div class="placeholder-box">
-              Placeholder for featured items or a “specials” API.
-            </div>
-          </div>
-        </div>
-      </div>
+            
 
-      <div class="content-card section-spacing">
-        <h3>Dietary Preferences</h3>
-        <p>
-          In the final version, users could filter options by dietary needs
-          (vegetarian, dairy-free, gluten-free, etc.).
-        </p>
-        <div class="placeholder-box">
-          Filter buttons and menu results will appear here (JS + API in final app).
-        </div>
-      </div>
-    </section>
-  </main>
+     
 
   <footer class="bg-white mt-4">
     <div class="container">

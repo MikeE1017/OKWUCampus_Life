@@ -1,1 +1,59 @@
+{
+  "week": "Nov 24 - Nov 30, 2025",
+  "days": [
+    {
+      "day": "Monday",
+      "meals": {
+        "lunch": [
+          "Grilled Chicken",
+          "Mashed Potatoes",
+          "Steamed Broccoli",
+          "Salad Bar",
+          "Dessert: Chocolate Cake"
+        ],
+        "dinner": [
+          "Tacos",
+          "Spanish Rice",
+          "Corn",
+          "Salsa Bar",
+          "Dessert: Cinnamon Churros"
+        ]
+      }
+    },
+    {
+      "day": "Tuesday",
+      "meals": {
+        "lunch": [
+          "Cheeseburgers",
+          "French Fries",
+          "Veggie Burgers",
+          "Fruit Bar"
+        ],
+        "dinner": [
+          "Spaghetti",
+          "Garlic Bread",
+          "Green Beans",
+          "Caesar Salad"
+        ]
+      }
+    },
+    {
+      "day": "Wednesday",
+      "meals": {
+        "lunch": [
+          "BBQ Pulled Pork",
+          "Mac & Cheese",
+          "Coleslaw",
+          "Cornbread"
+        ],
+        "dinner": [
+          "Baked Fish",
+          "Rice Pilaf",
+          "Mixed Vegetables",
+          "Rolls"
+        ]
+      }
+    }
+  ]
+}
 
