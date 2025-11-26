@@ -164,30 +164,25 @@ if (loadOkwuEventsBtn && okwuEventsList) {
 async function loadTodaysEvent() {
   const eventTarget = document.getElementById("todaysEvent");
   if (!eventTarget) return; // Prevent running on non-home pages
-
+  
   try {
     const response = await fetch("js/okwu-events.json");
     const eventsData = await response.json();
 
-    // Get today's date in the same format as JSON
-    const today = new Date();
-    const formattedToday = today.toLocaleDateString("en-US", {
-      weekday: "long",
-      month: "long",
-      day: "numeric",
-      year: "numeric"
-    });
+    // Get today's ISO date (YYYY-MM-DD)
+    const todayISO = new Date().toISOString().slice(0, 10);
 
-    // Try to find a matching date in your JSON
-    const todayEvents = eventsData.find(item => item.date === formattedToday);
+    // Find the entry with the matching isoDate field
+    const todayEvents = eventsData.find(item => item.isoDate === todayISO);
 
     if (!todayEvents) {
       eventTarget.textContent = "No scheduled events today.";
       return;
     }
 
-    // Build a simple display
+    // Build the display (use the human-readable date from JSON)
     let html = `<strong>${todayEvents.date}</strong><br><br>`;
+    
     todayEvents.events.forEach(evt => {
       html += `
         <strong>${evt.time}</strong> — ${evt.title}<br>

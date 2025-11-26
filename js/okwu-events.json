@@ -1,6 +1,7 @@
 [
   {
     "date": "Thursday, November 20, 2025",
+    "isoDate": "2025-11-20",
     "events": [
       {
         "time": "1:30 PM",
@@ -17,6 +18,7 @@
   },
   {
     "date": "Friday, November 21, 2025",
+    "isoDate": "2025-11-21",
     "events": [
       {
         "time": "7:00 PM",
@@ -28,6 +30,7 @@
   },
   {
     "date": "Saturday, November 22, 2025",
+    "isoDate": "2025-11-22",
     "events": [
       {
         "time": "12:00 PM",
@@ -64,6 +67,7 @@
   },
   {
     "date": "Tuesday, November 25, 2025",
+    "isoDate": "2025-11-25",
     "events": [
       {
         "time": "5:00 PM",
@@ -74,6 +78,7 @@
   },
   {
     "date": "Wednesday-Sunday, November 26-30, 2025",
+    "isoDate": "2025-11-26",
     "events": [
       {
         "time": "All Day",
@@ -89,6 +94,7 @@
   },
   {
     "date": "Monday, December 1, 2025",
+    "isoDate": "2025-12-01",
     "events": [
       {
         "time": "All Day",
@@ -99,6 +105,7 @@
   },
   {
     "date": "Thursday, December 4, 2025",
+    "isoDate": "2025-12-04",
     "events": [
       {
         "time": "1:30 PM",
@@ -109,6 +116,7 @@
   },
   {
     "date": "Friday, December 5, 2025",
+    "isoDate": "2025-12-05",
     "events": [
       {
         "time": "7:00 PM",
@@ -124,6 +132,7 @@
   },
   {
     "date": "Saturday, December 6, 2025",
+    "isoDate": "2025-12-06",
     "events": [
       {
         "time": "9:00 AM - 10:00 PM",
@@ -150,6 +159,7 @@
   },
   {
     "date": "Sunday, December 7, 2025",
+    "isoDate": "2025-12-07",
     "events": [
       {
         "time": "8:00 PM",
@@ -160,6 +170,7 @@
   },
   {
     "date": "Monday-Wednesday, December 8-10, 2025",
+    "isoDate": "2025-12-08",
     "events": [
       {
         "time": "All Day",
@@ -175,6 +186,7 @@
   },
   {
     "date": "Friday, December 12, 2025",
+    "isoDate": "2025-12-12",
     "events": [
       {
         "time": "All Day",
@@ -185,6 +197,7 @@
   },
   {
     "date": "Saturday, December 13, 2025",
+    "isoDate": "2025-12-13",
     "events": [
       {
         "time": "1:00 PM",
@@ -195,6 +208,7 @@
   },
   {
     "date": "Sunday, December 14, 2025",
+    "isoDate": "2025-12-14",
     "events": [
       {
         "time": "All Day",
@@ -210,6 +224,7 @@
   },
   {
     "date": "Monday, December 15, 2025",
+    "isoDate": "2025-12-15",
     "events": [
       {
         "time": "All Day",
